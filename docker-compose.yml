@@ -2,7 +2,7 @@ version: '3'
 
 services:
   app:
-    entrypoint: [bin/start]
+    entrypoint: [bin/start]   
     image: mconf/greenlight:auth-recordings
     container_name: greenlight
     env_file: .env
@@ -12,3 +12,7 @@ services:
     volumes:
       - ./db/production:/usr/src/app/db/production
       - ./log:/usr/src/app/log
+      - ./override/logo.png:/usr/src/app/public/images/logo.png
+      - ./override/_custom-variables.scss:/usr/src/app/app/assets/stylesheets/_custom-variables.scss
+      - ./override/override.scss:/usr/src/app/app/assets/stylesheets/override.scss
+      - ./override/locale.yml:/usr/src/app/config/locales/pt_BR.yml
