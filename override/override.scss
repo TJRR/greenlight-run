@@ -60,3 +60,18 @@
 input.btn-pill {
     border-radius: 0.2rem;
 }
+
+.footer {
+    background-color: $primary;
+    color: white !important;
+    height: unset;
+
+    a {
+        color: white !important;
+    }
+
+    i {
+        font-size: 20px;
+        color: white !important;
+    }
+}
