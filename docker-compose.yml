@@ -1,4 +1,4 @@
-version: '3'
+version: '2'
 
 services:
   app:
@@ -15,5 +15,8 @@ services:
       - ./override/logo.png:/usr/src/app/public/images/logo.png
       - ./override/_custom-variables.scss:/usr/src/app/app/assets/stylesheets/_custom-variables.scss
       - ./override/override.scss:/usr/src/app/app/assets/stylesheets/override.scss
-      - ./override/locale.yml:/usr/src/app/config/locales/pt_BR.yml
+      - ./override/locale-pt_BR.yml:/usr/src/app/config/locales/pt_BR.yml
+      - ./override/locale-en.yml:/usr/src/app/config/locales/en.yml
       - ./override/footer.html.erb:/usr/src/app/app/views/shared/_footer.html.erb
+      - ./override/index.html.erb:/usr/src/app/app/views/main/index.html.erb
+
