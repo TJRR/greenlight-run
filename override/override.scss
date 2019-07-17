@@ -48,6 +48,10 @@
     :not(.dropdown-item):not(.dropdown-icon) {        
         color: white;
     }
+
+    .header-nav.active {
+        color: white !important;
+    }
 }
 
 .sessions {
