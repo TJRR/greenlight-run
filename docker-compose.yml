@@ -3,7 +3,7 @@ version: '3'
 services:
   app:
     entrypoint: [bin/start]   
-    image: mconf/greenlight:auth-recordings
+    image: mconf/greenlight:master
     container_name: greenlight
     env_file: .env
     restart: unless-stopped
@@ -18,3 +18,4 @@ services:
       - ./override/locale.yml:/usr/src/app/config/locales/pt_BR.yml
       - ./override/footer.html.erb:/usr/src/app/app/views/shared/_footer.html.erb
       - ./override/index.html:/usr/src/app/public/index.html
+      - ./override/ldap_signin.html.erb:/usr/src/app/app/views/users/ldap_signin.html.erb
