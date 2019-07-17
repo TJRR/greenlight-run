@@ -77,7 +77,7 @@ pt_BR:
   home_room: Sala inicial
   info_update_success: Informações atualizadas com sucesso.
   invalid_user: "O login falhou por que não encontramos esse usuário no nosso banco de dados. Tem certeza que a conta de e-mail está correta?"
-  invalid_credentials: "O login falhou porque a credencial utilizada é inválida. Tem certeza que inseriu as informações corretamente?"
+  invalid_credentials: "Nome de usuário ou senha errados. Por favor confirme se os dados fornecidos são os mesmos do seu cadastro na rede do TJRR (f+matrícula). Em caso de dúvidas entre em contato com a central de atendimento (95) 3198-4141 ou clicando aqui!"
   invalid_login_method: O login falhou porque sua conta foi criada utilizando login social. Selecione a opção de login social para continuar.
   invite_message: "Para convidar alguém para a reunião, envie este link:"
   javascript:
