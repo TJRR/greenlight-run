@@ -23,13 +23,13 @@
       @include button-outline-variant($value);
       border-width: 2px;
       font-size: 1rem;
-      color: white;
-      border-color: white;
+      color: white !important;
+      border-color: white !important;
 
       &:hover {
-          color: $value;
-          border-color: $value;
-          background-color: white;
+          color: $value !important;
+          border-color: $value !important;
+          background-color: white !important;
       }
     }
 
@@ -46,7 +46,7 @@
 
 .header {
     :not(.dropdown-item):not(.dropdown-icon) {        
-        color: white;
+        color: white !important;
     }
 
     .header-nav.active {
@@ -78,4 +78,8 @@ input.btn-pill {
         font-size: 20px;
         color: white !important;
     }
+}
+
+.wrapper {
+    min-height: calc(100% - 9.5rem - 65px);
 }
