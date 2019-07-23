@@ -20,3 +20,4 @@ services:
       - ./override/footer.html.erb:/usr/src/app/app/views/shared/_footer.html.erb
       - ./override/index.html:/usr/src/app/public/index.html
       - ./override/ldap_signin.html.erb:/usr/src/app/app/views/users/ldap_signin.html.erb
+      - ./override/room.js.erb:/usr/src/app/app/assets/javascripts/room.js.erb
