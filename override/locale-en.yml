@@ -183,6 +183,9 @@ en:
   invalid_login_method: Login failed due to account mismatch. You need to log in with omniauth.
   invite_message: "To invite someone to the meeting, send them this link:"
   javascript:
+    buttons:
+      copy: "Copy"
+      copied: "Copied"
     recording:
       format:
         presentation: "Presentation"
