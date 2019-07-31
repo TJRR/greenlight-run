@@ -180,7 +180,7 @@ pt_BR:
     dropdown:
       account_settings: Organização
       help: "Precisa de ajuda?"
-      home: Sala Inicial
+      home: Sala inicial
       settings: Perfil
       signout: Sair
   home_room: Sala inicial
@@ -368,7 +368,7 @@ pt_BR:
     super_admin: Super Administrador
     user: Usuário
   room:
-    create_room: Criar uma Sala
+    create_room: Criar uma sala
     create_room_error: Ocorreu um erro ao criar a sala
     create_room_success: Sala criada com sucesso
     invited: Você foi convidado a participar
@@ -377,10 +377,10 @@ pt_BR:
     last_session: "Última sessão em %{session}"
     owner: Dono
     no_sessions: Nenhuma sessão foi realizada nesta sala.
-    recordings: Gravações da Sala
+    recordings: gravações na sala
     room_limit: Você atingiu o número máximo de salas permitido
     room_limit_exceeded: "Você excedeu o número de salas permitido. Por favor, delete %{difference} sala(s) para acessar essa sala."
-    sessions: Sessões
+    sessions: sessões
     settings: Configurações da sala
     start: Iniciar
     unavailable: Esta sala não está disponível pois o e-mail do dono da sala ainda não foi verificado.
