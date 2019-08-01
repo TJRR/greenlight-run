@@ -20,3 +20,13 @@ services:
       - ./override/footer.html.erb:/usr/src/app/app/views/shared/_footer.html.erb
       - ./override/index.html:/usr/src/app/public/index.html
       - ./override/ldap_signin.html.erb:/usr/src/app/app/views/users/ldap_signin.html.erb
+      - ./db/data.yml:/usr/src/app/db/data.yml
+  db:
+    image: postgres:10.5
+    restart: always
+    environment:
+      POSTGRES_DB: greenlight_production
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+    volumes:
+      - ./db/postgres_production:/var/lib/postgresql/data
