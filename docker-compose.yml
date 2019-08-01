@@ -10,7 +10,7 @@ services:
     ports:
       - 5000:80
     volumes:
-      - ./db/production:/usr/src/app/db/production
+      # - ./db/sqlite/production:/usr/src/app/db/production
       - ./log:/usr/src/app/log
       - ./override/logo.png:/usr/src/app/public/images/logo.png
       - ./override/_custom-variables.scss:/usr/src/app/app/assets/stylesheets/_custom-variables.scss
@@ -20,4 +20,24 @@ services:
       - ./override/footer.html.erb:/usr/src/app/app/views/shared/_footer.html.erb
       - ./override/index.html:/usr/src/app/public/index.html
       - ./override/ldap_signin.html.erb:/usr/src/app/app/views/users/ldap_signin.html.erb
+      - ./db/data.yml:/usr/src/app/db/data.yml
+
+# 1) Criar arquivo vazio db/data.yml
+# 2) docker-compose up -d mantendo sqlite como banco padrão
+# 3) docker-compose exec app bundle exec rake db:data:dump
+# 4) docker-compose down
+# 5) Atualizar env para passar a utilizar o Postgres
+# 6) docker-compose up -d
+# 7) docker-compose exec app bundle exec rake db:data:load
+
+  db:
+    image: postgres:10.5
+    container_name: postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: greenlight_production
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+    volumes:
+      - ./db/postgres/production:/var/lib/postgresql/data
 
