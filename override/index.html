@@ -1,14 +1,1016 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>TJRR - Redirecionando...</title>
+	<meta charset="utf-8">
+	<title>Scriba</title>
+	
+	<link rel="shortcut icon" href="assets/img/favicon/favicon_16x16.svg" />
+
+	<meta name="description" content="Scriba">
+
+	<meta name="keywords" content="Scribra">
+
+	<meta name="author" content="Lourilúcio Moura" >
+
+	<!-- Mobile Specific Meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- css-include -->
+
+	<!-- boorstrap -->
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<!-- themify-icon.css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/themify-icons.css">
+	<!-- animate.css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+	<!-- owl-carousel -->
+	<link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.css">
+	<!-- video.min.css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/video.min.css">
+	<!-- menu style -->
+	<link rel="stylesheet" type="text/css" href="assets/css/menu.css">
+	<!-- style -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<!-- responsive.css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+
 </head>
+
 <body>
-    <script>
-        window.location.replace('/home');
-    </script>
-</body>
-</html>
+	<!-- CABECALHO
+		============================================= -->
+		<header>
+			<div id="main-menu"  class="main-menu-container tbg navbar-fixed-top">
+				<div  class="main-menu">
+
+					<div class="container">
+						<div class="row">
+							<div class="navbar navbar-default" role="navigation">
+								<div class="container-fluid">
+									<!-- Brand and toggle get grouped for better mobile display -->
+									<div class="navbar-header">
+										<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+											<span class="sr-only">Toggle navigation</span>
+											<i class="ti-menu"></i>
+										</button><!-- /.navbar-toggle collapsed -->
+										<a class="navbar-brand text-uppercase" href="#" title="Ir para a página inicial"><img src="assets/img/logo/logo.png" alt="Scriba"></a>
+									</div><!-- /.navbar-header -->
+
+									<!-- Collect the nav links, forms, and other content for toggling -->
+									<nav class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+										<ul id="main-nav" class="nav navbar-nav">
+											<li><a href="#about">sobre</a></li>
+											<li><a href="#features">funcionalidades</a></li>
+											<li><a href="#showcase">tutoriais</a></li>
+											<li><a href="#download-area">DOWNLOAD<span class="ti-import"></span></a></li>
+											<li><a href="#contact">contato</a></li>
+											<li class="li-button"><button class="sign-in-button"><a href="http://10.50.22.213:3000/home">Entrar</a></button></li>
+											<!--<li class="li-button"><button class="sign-in-button"><a href="/ldap_signin">Entrar</a></button></li> -->
+										</ul><!-- /#main-nav -->
+									</nav><!-- /.navbar-collapse -->
+								</div><!-- /.container-fluid -->
+							</div><!-- /.navbar navbar-default -->
+						</div><!-- /.row -->
+					</div><!-- /.container -->
+				</div><!-- /.full-main-menu -->
+			</div><!-- #main-menu -->
+			<!-- Main Menu end -->
+		</header> <!-- .cd-auto-hide-header -->
+	<!-- End of Header 
+		============================================= -->
+
+	<!-- BANNER 
+		============================================= -->
+		<section id="banner-area" class="banner-area-section home-3 home-2">
+			<div class="container">
+				<div class="row">
+					<div class="banner-area-content">
+						<div class="banner-area-head">
+							<h1 class="pb30">Sistema de Comunicação Inteligente</h1>
+							<div  class="banner-text pb40">
+								<span>O Scriba é uma solução completa para realização de audiências que facilita o trabalho do Judiciário, pois reúne todas as informações em um só lugar, grava e transcreve áudio e vídeo, reduz custos operacionais e promove o aumento da produtividade.</span>
+							</div>
+							<div class="install-play text-center"> <!-- VIDEO -->
+								<div id="light"></div>
+								<div id="fade" onClick="lightbox_close();"></div>
+								<div class="video">
+									<a href="#" onclick="lightbox_open();"><a class="popup-with-zoom-anim" href="assets/video/scriba.mp4" title="Lançamento do Scriba"><span class="orange-gred ti-control-forward"></span></a></a>
+								</div>
+							</div> <!-- VIDEO-->
+							<div class="download-store ul-li">
+								<ul class="store-list">
+									<li><a href="https://chrome.google.com/webstore/detail/scriba-tjrr/nhgbelfgjkikkhmgndepdbpcajdcognm" title="Integração Projudi com Scriba para Chrome" target="blank"><img src="assets/img/store/chrome.png"></a></li>
+									<li><a href="https://addons.mozilla.org/pt-BR/firefox/addon/scriba-tjrr/" title="Integração Projudi com Scriba para Firefox" target="blank"><img src="assets/img/store/firefox.png"></a></li>
+								</ul>
+							</div> 
+							<div class="banner-slider">									
+								<div class="banner-slider_moblile">
+									<img src="assets/img/banner/mobile-1.png" alt="">
+									<div class="banner-slide-area">
+										<div class="banner-slider-item">
+											<img src="assets/img/showcase/banner-1.jpg" alt="img">
+										</div>
+										<div class="banner-slider-item">
+											<img src="assets/img/showcase/banner-2.jpg" alt="img">
+										</div>
+										<div class="banner-slider-item">
+											<img src="assets/img/showcase/banner-3.jpg" alt="img">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div><!-- /banner-area-head -->
+					</div><!-- /banner-area-content -->
+				</div><!-- /row -->
+			</div><!-- /.container -->
+		</section>
+	<!-- End of banner section  
+		============================================= -->
+
+
+	<!-- Start of About Section 
+		============================================= -->
+		<section id="about" class="about-section">
+			<div class="container">
+				<div class="row section-content">
+					<div class="about-section-content">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="about-left-img zooming">
+									<img src="assets/img/mock-up/about.png" alt="img">
+								</div>
+							</div>
+							<!-- //col-sm-6 -->
+
+							<div class="col-md-6">
+								<div class="about-section-text">
+									<div class="section-title text-left pb50">
+										<span class="title-text pink text-uppercase">SOBRE</span>
+										<h1 class="title deep-black pb40">Conheça o Scriba</h1>
+										<span class="title-dec">
+										<p>O Scriba é um sistema de audiências via web de código aberto, o que significa que o código-fonte possui uma licença que permite a qualquer instituição do Judiciário configurar seu próprio serviço de comunicação inteligente com o Scriba. </p>
+										<p>O Scriba foi concebido para Tribunais, por isso apresenta todos recursos esperados de um sistema de Audiências Judiciais. Os recursos abrangentes permitem aos magistrados, servidores, promotores, defensores, advogados e as partes participarem das audiências de maneira célere e segura.</p>
+										<p>O Scriba pode ser integrado ao sistema de controle de processos para realizar a gravação e a transcrição das audiências diretamente da tela de gestão da pauta diária da Unidade Judicial.</p>
+										<p>O Scriba permite a participação remota a partir de qualquer dispositivo com acesso a internet, inclusive de réus em regime de restrição de liberdade, sem a necessidade de deslocamento com escolta da unidade prisional até o Fórum.</p>
+										</span>
+									</div>
+									<!-- //section-title -->
+								</div>
+								<!-- //about-section-text -->
+							</div>
+							<!-- //col-sm-6 -->
+						</div>
+					</div>
+					<!-- //about-section-content -->
+				</div><!-- /row -->
+			</div><!-- /container -->
+		</section>
+	<!-- End of About Section  
+		============================================= -->
+
+
+
+
+	<!-- Start of features section 1 
+		============================================= -->
+		<section id="features" class="features-section pt35">
+			<div class="container">
+				<div class="row section-content">
+					<div class="section-title text-center">
+						<span class="title-text pink text-uppercase">FUNCIONALIDADES</span>
+						<h1 class="title deep-black pb40">Características do Scriba</h1>
+					</div>
+					<div class="features-content">
+						<div class="row">
+							<div class="col-md-4">
+								<div class="features-text-icon text-center">
+									<div class="features-icon">
+										<i class="orange-gred ti-html5"></i>
+									</div>
+									<!-- //icon -->
+									<div class="features-text mt25">
+										<div class="features-text-title pb10">
+											<h3 class="deep-black">HTML 5</h3>
+										</div>
+										<div class="features-text-dec">
+											<span>Cliente moderno, em HTML5 para áudio e vídeo em tempo real com o WebRTC, garantindo melhor performance.</span>
+										</div>
+									</div>
+									<!-- //text -->
+
+								</div><!-- // features-text-icon -->
+							</div>
+							<!-- // col-sm-4 -->
+
+
+							<div class="col-md-4">
+								<div class="features-text-icon text-center">
+									<div class="features-icon">
+										<i class="orange-gred ti-dashboard"></i>
+									</div>
+									<!-- //icon -->
+									<div class="features-text mt25">
+										<div class="features-text-title pb10">
+											<h3 class="deep-black">Alta Performance</h3>
+										</div>
+										<div class="features-text-dec">
+											<span>Apresenta o que há de mais moderno em tecnologia de comunicação com excelente desempenho.</span>
+										</div>
+									</div>
+									<!-- //text -->
+
+								</div><!-- // features-text-icon -->
+							</div>
+							<!-- // col-sm-4 -->
+
+							<div class="col-md-4">
+								<div class="features-text-icon text-center">
+									<div class="features-icon">
+										<i class="orange-gred ti-lock"></i>
+									</div>
+									<!-- //icon -->
+									<div class="features-text mt25">
+										<div class="features-text-title pb10">
+											<h3 class="deep-black">Segurança</h3>
+										</div>
+										<div class="features-text-dec">
+											<span>O sistema de comunicação Webrtc garante a criptografia ponto a ponto e impede que a troca de informações possa ser interceptada.</span>
+										</div>
+									</div>
+									<!-- //text -->
+
+								</div><!-- // features-text-icon -->
+							</div>
+							<!-- // col-sm-4 -->
+
+						</div><!-- /section-row-->
+					</div><!-- /features-content -->
+				</div><!-- /row -->
+			</div><!-- /container -->
+		</section>
+	<!-- End of features section 1 
+		============================================= -->
+
+
+
+	<!-- Start of some extra features  
+		============================================= -->
+		<section id="extra-features" class="extra-features-section">
+			<div class="container">
+				<div class="row section-content">
+					<!-- //section-title -->
+					<div class="extra-features-content">
+						<div class="row">
+							<div class="col-md-4 col-sm-6">
+								<div class="extra-left">
+									<div class="extra-left-content">
+										<div class="extra-icon-text text-left">
+											<div class="features-icon text-center">
+												<i class="orange-gred ti-headphone-alt"></i>
+											</div>
+											<div class="features-text pt25">
+												<div class="features-text-title text-right pb10">
+													<h3 class="deep-black">Webconferência</h3>
+												</div>
+												<div class="features-text-dec text-right">
+													<span>Recursos essenciais para compartilhamento em tempo real de áudio, vídeo e documentos.</span>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- // extra-left-content -->
+
+									<div class="extra-left-content">
+										<div class="extra-icon-text text-left">
+											<div class="features-icon text-center">
+												<i class="orange-gred ti-control-forward"></i>
+											</div>
+											<div class="features-text pt25">
+												<div class="features-text-title text-right pb10">
+													<h3 class="deep-black">Gravação</h3>
+												</div>
+												<div class="features-text-dec text-right">
+													<span>Gravação das audiências presenciais e a distância e inclusão automática no processo judicial.</span>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- // extra-left-content -->
+
+									<div class="extra-left-content">
+										<div class="extra-icon-text text-left">
+											<div class="features-icon text-center">
+												<i class="orange-gred ti-ink-pen"></i>
+											</div>
+											<div class="features-text pt25">
+												<div class="features-text-title text-right pb10">
+													<h3 class="deep-black">Transcrição</h3>
+												</div>
+												<div class="features-text-dec text-right">
+													<span>Transcrição automática, no idioma Português Brasil, das audiências realizadas.</span>
+												</div>
+											</div>
+										</div>
+									</div> <!-- // extra-left-content -->
+									<div class="extra-left-content">
+										<div class="extra-icon-text text-left">
+											<div class="features-icon text-center">
+												<i class="orange-gred ti-harddrives"></i>
+											</div>
+											<div class="features-text pt25">
+												<div class="features-text-title text-right pb10">
+													<h3 class="deep-black">Integração</h3>
+												</div>
+												<div class="features-text-dec text-right">
+													<span>Alta compatibilidade e integração com a maioria dos equipamentos e softwares de conferência.</span>
+												</div>
+											</div>
+										</div>
+									</div> <!-- // extra-left-content -->
+								</div><!-- /extra-left -->
+							</div> 
+							<!-- /col-sm-3 -->
+
+							<div class="col-sm-4">
+								<div class="extra-pic text-center">
+									<img src="assets/img/mock-up/extra.png" alt="img">
+								</div>
+							</div>
+							<!-- /col-sm-6 -->
+
+							<div class="col-md-4 col-sm-6">
+								<div class="extra-right">
+									<div class="extra-left-content">
+										<div class="extra-icon-text text-right">
+											<div class="features-icon text-center">
+												<i class="orange-gred ti-mobile"></i>
+											</div>
+											<div class="features-text pt25">
+												<div class="features-text-title text-left pb10">
+													<h3 class="deep-black">Telefonia</h3>
+												</div>
+												<div class="features-text-dec text-left">
+													<span>Realizar e receber chamadas telefonicas convêncionais (fixo, celular, DDD e DDI) e via VOIP-SIP.</span>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- // extra-left-content -->
+									<div class="extra-left-content">
+										<div class="extra-icon-text text-right">
+											<div class="features-icon text-center">
+												<i class="orange-gred ti-video-camera"></i>
+											</div>
+											<div class="features-text pt25">
+												<div class="features-text-dec text-left">
+													<h3 class="deep-black">Movimentação Processual</h3>
+												</div>
+												<div class="features-text-dec text-left">
+													<span>Inclusão automática das gravações ao termo de audiência na movimentação processual.</span>
+												</div>
+											</div>
+										</div>
+									</div> <!-- // extra-left-content -->
+									<div class="extra-left-content">
+										<div class="extra-icon-text text-right">
+											<div class="features-icon text-center">
+												<i class="orange-gred ti-write"></i>
+											</div>
+											<div class="features-text pt25">
+												<div class="features-text-title text-left">
+													<h3 class="deep-black">Modo edição</h3>
+												</div>
+												<div class="features-text-dec text-left">
+													<span>Edição das trancrições com nuvem de palavras, marcadores e comentários.</span>
+												</div>
+											</div>
+										</div>
+									</div> <!-- // extra-left-content -->
+									<div class="extra-left-content">
+										<div class="extra-icon-text text-right">
+											<div class="features-icon text-center">
+												<i class="orange-gred ti-cloud"></i>
+											</div>
+											<div class="features-text pt25">
+												<div class="features-text-title text-left pb10">
+													<h3 class="deep-black">Escalabilidade</h3>
+												</div>
+												<div class="features-text-dec text-left">
+													<span>Fácil de escalar com balanceamento de carga e possibilidade de implementação em nuvem.</span>
+												</div>
+											</div>
+										</div>
+									</div> <!-- // extra-left-content -->									
+								</div><!-- /extra-left -->
+							</div>
+							<!-- /col-sm-3 -->
+						</div><!-- /row -->
+					</div><!-- /extra-features-content -->
+				</div><!-- /row -->
+			</div><!-- /container -->
+		</section>
+	<!-- End of some extra features   
+		============================================= -->
+
+
+	<!-- Start of features section 2 
+		============================================= -->
+		<section id="features" class="features-section">
+			<div class="container">
+				<div class="row section-content pb40">
+					<div class="features-content">
+						<div class="row">
+							<div class="col-md-4">
+								<div class="features-text-icon text-center">
+									<div class="features-icon">
+										<i class="orange-gred ti-desktop"></i>
+									</div>
+									<!-- //icon -->
+									<div class="features-text mt25">
+										<div class="features-text-title pb10">
+											<h3 class="deep-black">Responsivo</h3>
+										</div>
+										<div class="features-text-dec">
+											<span>Por possuir um cliente web, o sistema não necessita de instalação no cliente e pode ser acessado de computadores e smartphones.</span>
+										</div>
+									</div>
+									<!-- //text -->
+
+								</div><!-- // features-text-icon -->
+							</div>
+							<!-- // col-sm-4 -->
+
+
+							<div class="col-md-4">
+								<div class="features-text-icon text-center">
+									<div class="features-icon">
+										<i class="orange-gred ti-linux"></i>
+									</div>
+									<!-- //icon -->
+									<div class="features-text mt25">
+										<div class="features-text-title pb10">
+											<h3 class="deep-black">Código Aberto</h3>
+										</div>
+										<div class="features-text-dec">
+											<span>Apoiado por uma comunidade mundial de desenvolvedores (e empresas comerciais) que se preocupam em criar o melhor sistema de comunicação na web.</span>
+										</div>
+									</div>
+									<!-- //text -->
+
+								</div><!-- // features-text-icon -->
+							</div>
+							<!-- // col-sm-4 -->
+
+							<div class="col-md-4">
+								<div class="features-text-icon text-center">
+									<div class="features-icon">
+										<i class="orange-gred ti-settings"></i>
+									</div>
+									<!-- //icon -->
+									<div class="features-text mt25">
+										<div class="features-text-title pb10">
+											<h3 class="deep-black">Fácil Customização</h3>
+										</div>
+										<div class="features-text-dec">
+											<span>Totalmente customizavel permite a integração modular com outros sistemas, serviços e hardwares específicos.</span>
+										</div>
+									</div>
+									<!-- //text -->
+
+								</div><!-- // features-text-icon -->
+							</div>
+							<!-- // col-sm-4 -->
+
+						</div><!-- /section-row -->
+					</div><!-- /features-content -->
+				</div><!-- /row -->
+			</div><!-- /container -->
+		</section>
+	<!-- End of features section 2 
+		============================================= -->
+
+
+
+
+	<!-- Start Testimonial section  
+		============================================= -->
+		<section id="testimonial" class="testimonial-section">
+			<div class="container">
+				<div class="row section-content">
+					<div class="showcase-content">
+							<div class="showcase-slider">
+								<div class="showcase-img pt35"> <!-- show-1 -->
+							<div class="testimonial-name-designation">
+								<div class="quate-icon">
+									<span class="orange-gred ti-quote-left"></span>
+								</div>
+								<!-- //icon -->
+								<div class="testimonial-text">
+									<span>O Tribunal de Justiça, por meio do Nupemec, atuou com essa ferramenta inovadora do ponto de vista jurídico. É uma ação inclusiva na medida que alcança pessoas em diferentes partes do mundo, utilizando apenas computadores, câmeras e aparelhos celulares, reduzindo tempo e custos.</span>
+								</div>
+								<!-- //text -->
+								<div class="testimonial-name-des  pt25">
+									<div class="testimonial-pic">
+										<img src="assets/img/testimonial/testi-1.jpg" alt="img">
+									</div>
+									<!-- //pic -->
+									<div class="client-designation pt20">
+										<span class="name deep-black">Dr. Esdras Silva Pinto</span>
+										<span class="designation">Juiz Presidente do Comitê de Inteligência Artificial do TJRR</span>
+									<div class="leia">
+										<a href="http://www.tjrr.jus.br/index.php/noticias/noticias/3864-brasil-e-japao-audiencia-do-tjrr-por-videoconferencia-comprova-existencia-de-idoso-que-perdeu-contato-com-a-familia" title="Leia a matéria na integra" target="blank">Leia na integra</a>
+									</div>
+									</div>
+									<!-- //client-designation  -->
+								</div>
+								<!-- //name-dec -->
+							</div><!-- /testimonial-name-designation -->	
+								</div>
+								<div class="showcase-img pt35">  <!-- show-2 -->
+							<div class="testimonial-name-designation">
+								<div class="quate-icon">
+									<span class="orange-gred ti-quote-left"></span>
+								</div>
+								<!-- //icon -->
+								<div class="testimonial-text">
+									<span>É um processo que gera celeridade, segurança, pois a audiência é gravada e o arquivo gera um endereço eletrônico, que ao final da audiência é acrescentado ao processo que poderá, caso seja público, ser acessado do Projudi [Processo Judicial Digital do TJRR].</span>
+								</div>
+								<!-- //text -->
+								<div class="testimonial-name-des  pt25">
+									<div class="testimonial-pic">
+										<img src="assets/img/testimonial/testi-2.jpg" alt="Dr. Air Marin Junior">
+									</div>
+									<!-- //pic -->
+									<div class="client-designation pt20">
+										<span class="name deep-black">Dr. Air Marin Junior</span>
+										<span class="designation">Juiz Titular do 2º Juizado Especial Cível</span>
+									<div class="leia">
+										<a href="http://www.tjrr.jus.br/index.php/noticias/noticias/3835-tribunal-de-justica-de-roraima-realiza-audiencia-internacional-por-meio-de-videoconferencia" title="Leia a matéria na integra" target="blank">Leia na integra</a>
+									</div>
+									</div>
+									<!-- //client-designation  -->
+								</div>
+								<!-- //name-dec -->
+							</div><!-- /testimonial-name-designation -->	
+								</div>
+								<div class="showcase-img pt35">  <!-- show-3 -->
+							<div class="testimonial-name-designation">
+								<div class="quate-icon">
+									<span class="orange-gred ti-quote-left"></span>
+								</div>
+								<!-- //icon -->
+								<div class="testimonial-text">
+									<span>Se esse processo fosse por meios convencionais, demandaria um tempo muito maior. E com a tecnologia podemos resolver em menos de 20 minutos. Videoconferência é a demonstração de que o judiciário está no caminho certo.</span>
+								</div>
+								<!-- //text -->
+								<div class="testimonial-name-des  pt25">
+									<div class="testimonial-pic">
+										<img src="assets/img/testimonial/testi-3.jpg" alt="img">
+									</div>
+									<!-- //pic -->
+									<div class="client-designation pt20">
+										<span class="name deep-black">Desembargador Almiro Padilha</span>
+										<span class="designation">Corregedor Geral de Justiça</span>
+									<div class="leia">
+										<a href="http://www.tjrr.jus.br/index.php/noticias/noticias/3835-tribunal-de-justica-de-roraima-realiza-audiencia-internacional-por-meio-de-videoconferencia" title="Leia a matéria na integra" target="blank">Leia na integra</a>
+									</div>
+									</div>
+									<!-- //client-designation  -->
+								</div>
+								<!-- //name-dec -->
+							</div><!-- /testimonial-name-designation -->	
+								</div>
+								<div class="showcase-img pt35">  <!-- show-4 -->
+							<div class="testimonial-name-designation">
+								<div class="quate-icon">
+									<span class="orange-gred ti-quote-left"></span>
+								</div>
+								<!-- //icon -->
+								<div class="testimonial-text">
+									<span>O Tribunal de Justiça, por meio do Nupemec, atuou com essa ferramenta inovadora do ponto de vista jurídico. É uma ação inclusiva na medida que alcança pessoas em diferentes partes do mundo, utilizando apenas computadores, câmeras e aparelhos celulares, reduzindo tempo e custos.</span>
+								</div>
+								<!-- //text -->
+								<div class="testimonial-name-des  pt25">
+									<div class="testimonial-pic">
+										<img src="assets/img/testimonial/testi-1.jpg" alt="img">
+									</div>
+									<!-- //pic -->
+									<div class="client-designation pt20">
+										<span class="name deep-black">Dr. Esdras Silva Pinto</span>
+										<span class="designation">Juiz Presidente do Comitê de Inteligência Artificial do TJRR</span>
+									<div class="leia">
+										<a href="http://www.tjrr.jus.br/index.php/noticias/noticias/3864-brasil-e-japao-audiencia-do-tjrr-por-videoconferencia-comprova-existencia-de-idoso-que-perdeu-contato-com-a-familia" title="Leia a matéria na integra" target="blank">Leia na integra</a>
+									</div>
+									</div>
+									<!-- //client-designation  -->
+								</div>
+								<!-- //name-dec -->
+							</div><!-- /testimonial-name-designation -->	
+								</div>
+								<div class="showcase-img pt35">  <!-- show-5 -->
+							<div class="testimonial-name-designation">
+								<div class="quate-icon">
+									<span class="orange-gred ti-quote-left"></span>
+								</div>
+								<!-- //icon -->
+								<div class="testimonial-text">
+									<span>É um processo que gera celeridade, segurança, pois a audiência é gravada e o arquivo gera um endereço eletrônico, que ao final da audiência é acrescentado ao processo que poderá, caso seja público, ser acessado do Projudi [Processo Judicial Digital do TJRR].</span>
+								</div>
+								<!-- //text -->
+								<div class="testimonial-name-des  pt25">
+									<div class="testimonial-pic">
+										<img src="assets/img/testimonial/testi-2.jpg" alt="Dr. Air Marin Junior">
+									</div>
+									<!-- //pic -->
+									<div class="client-designation pt20">
+										<span class="name deep-black">Dr. Air Marin Junior</span>
+										<span class="designation">Juiz Titular do 2º Juizado Especial Cível</span>
+									<div class="leia">
+										<a href="http://www.tjrr.jus.br/index.php/noticias/noticias/3835-tribunal-de-justica-de-roraima-realiza-audiencia-internacional-por-meio-de-videoconferencia" title="Leia a matéria na integra" target="blank">Leia na integra</a>
+									</div>
+									</div>
+									<!-- //client-designation  -->
+								</div>
+								<!-- //name-dec -->
+							</div><!-- /testimonial-name-designation -->	
+								</div>
+								<div class="showcase-img pt35">  <!-- show-6 -->
+							<div class="testimonial-name-designation">
+								<div class="quate-icon">
+									<span class="orange-gred ti-quote-left"></span>
+								</div>
+								<!-- //icon -->
+								<div class="testimonial-text">
+									<span>Se esse processo fosse por meios convencionais, demandaria um tempo muito maior. E com a tecnologia podemos resolver em menos de 20 minutos. Videoconferência é a demonstração de que o judiciário está no caminho certo.</span>
+								</div>
+								<!-- //text -->
+								<div class="testimonial-name-des  pt25">
+									<div class="testimonial-pic">
+										<img src="assets/img/testimonial/testi-3.jpg" alt="img">
+									</div>
+									<!-- //pic -->
+									<div class="client-designation pt20">
+										<span class="name deep-black">Desembargador Almiro Padilha</span>
+										<span class="designation">Corregedor Geral de Justiça</span>
+									<div class="leia">
+										<a href="http://www.tjrr.jus.br/index.php/noticias/noticias/3835-tribunal-de-justica-de-roraima-realiza-audiencia-internacional-por-meio-de-videoconferencia" title="Leia a matéria na integra" target="blank">Leia na integra</a>
+									</div>
+									</div>
+									<!-- //client-designation  -->
+								</div>
+								<!-- //name-dec -->
+							</div><!-- /testimonial-name-designation -->	
+								</div>
+								<div class="showcase-img pt35">  <!-- show-7 -->
+							<div class="testimonial-name-designation">
+								<div class="quate-icon">
+									<span class="orange-gred ti-quote-left"></span>
+								</div>
+								<!-- //icon -->
+								<div class="testimonial-text">
+									<span>O Tribunal de Justiça, por meio do Nupemec, atuou com essa ferramenta inovadora do ponto de vista jurídico. É uma ação inclusiva na medida que alcança pessoas em diferentes partes do mundo, utilizando apenas computadores, câmeras e aparelhos celulares, reduzindo tempo e custos.</span>
+								</div>
+								<!-- //text -->
+								<div class="testimonial-name-des  pt25">
+									<div class="testimonial-pic">
+										<img src="assets/img/testimonial/testi-1.jpg" alt="img">
+									</div>
+									<!-- //pic -->
+									<div class="client-designation pt20">
+										<span class="name deep-black">Dr. Esdras Silva Pinto</span>
+										<span class="designation">Juiz Presidente do Comitê de Inteligência Artificial do TJRR</span>
+									<div class="leia">
+										<a href="http://www.tjrr.jus.br/index.php/noticias/noticias/3864-brasil-e-japao-audiencia-do-tjrr-por-videoconferencia-comprova-existencia-de-idoso-que-perdeu-contato-com-a-familia" title="Leia a matéria na integra" target="blank">Leia na integra</a>
+									</div>
+									</div>
+									<!-- //client-designation  -->
+								</div>
+								<!-- //name-dec -->
+							</div><!-- /testimonial-name-designation -->	
+
+
+								</div>
+							</div>
+						</div>
+					</div><!-- /showcase-content -->
+				</div><!-- /row -->
+			</div><!-- /container -->
+		</section>
+	<!-- End of testimonial section     
+		============================================= -->
+
+
+
+
+	<!-- Start of showcase section  
+		============================================= -->
+		<section id="showcase" class="showcase-section">
+			<div class="container">
+				<div class="row section-content">
+					<div class="showcase-content">
+						<div class="section-title text-center pt55">
+							<span class="title-text pink text-uppercase">TUTORIAIS</span>
+							<h1 class="title deep-black pb40">Aprenda a usar o Scriba</h1>
+						</div>
+						<!-- //section-title -->
+
+							<div class="showcase-slider">
+								<div class="showcase-img"> <!-- show-1 -->
+									<h4>Entrar na Audiência</h4>
+									<h5>Para entrar em uma audiência agendada, no Projudi acesse o menu audiências, localize o processo desejado e clique em Entrar na Audiência.</h5>
+									<div class="install-play text-center"> <!-- VIDEO -->
+										<div id="light"></div>
+										<div id="fade" onClick="lightbox_close();"></div>
+										<div class="video">
+											<img style="position: absolute;" src="assets/img/showcase/show-1.jpg" alt="img">
+											<a href="#" onclick="lightbox_open();"><a class="popup-with-zoom-pq" href="assets/video/tuto1.webm" title="Acessar Audiência"><span class="orange-gred ti-control-forward"></span></a></a>
+										</div>
+									</div> <!-- VIDEO-->
+								</div>
+								<div class="showcase-img">  <!-- show-2 -->
+									<h4>Acessar Gravação</h4>
+									<h5>Para acessar uma gravação, no Projudi acesse o processo desejado, na aba Gravações, pela data e hora localize a gravação desejada e clique em Assistir.</h5>
+									<div class="install-play text-center"> <!-- VIDEO -->
+										<div id="light"></div>
+										<div id="fade" onClick="lightbox_close();"></div>
+										<div class="video">
+											<img style="position: absolute;" src="assets/img/showcase/show-2.jpg" alt="img">
+											<a href="#" onclick="lightbox_open();"><a class="popup-with-zoom-pq" href="assets/video/tuto2.webm" title="Acessar Gravação"><span class="orange-gred ti-control-forward"></span></a></a>
+										</div>
+									</div> <!-- VIDEO-->	
+								</div>
+								<div class="showcase-img">  <!-- show-3 -->
+									<h4>Acessar Transcrição</h4>
+									<h5>Para acessar uma transcrição, no Projudi acesse o processo desejado, na aba Gravações, pela data e hora localize a gravação desejada e clique em Transcrição.</h5>
+									<div class="install-play text-center"> <!-- VIDEO -->
+										<div id="light"></div>
+										<div id="fade" onClick="lightbox_close();"></div>
+										<div class="video">
+											<img style="position: absolute;" src="assets/img/showcase/show-3.jpg" alt="img">
+											<a href="#" onclick="lightbox_open();"><a class="popup-with-zoom-pq" href="assets/video/tuto3.webm" title="Acessar Transcrição"><span class="orange-gred ti-control-forward"></span></a></a>
+										</div>
+									</div> <!-- VIDEO-->	
+								</div>
+								<div class="showcase-img">  <!-- show-4 -->
+									<h4>Criar Termo de Audiência</h4>
+									<h5>Para adicionar uma gravação, no Projudi acesse o termo de audiência, selecione a gravação desejada e utilize o código $EnderecoGravacao.</h5>
+									<div class="install-play text-center"> <!-- VIDEO -->
+										<div id="light"></div>
+										<div id="fade" onClick="lightbox_close();"></div>
+										<div class="video">
+											<img style="position: absolute;" src="assets/img/showcase/show-4.jpg" alt="img">
+											<a href="#" onclick="lightbox_open();"><a class="popup-with-zoom-pq" href="assets/video/tuto4.webm" title="Adicionar Gravação"><span class="orange-gred ti-control-forward"></span></a></a>
+										</div>
+									</div> <!-- VIDEO-->	
+								</div>
+								<div class="showcase-img">  <!-- show-5 -->
+									<h4>Editar Transcrição</h4>
+									<h5>Para Editar uma transcrição, na tela de visualização da transcrição clique na opção Editar Transcrição.</h5>
+									<div class="install-play text-center"> <!-- VIDEO -->
+										<div id="light"></div>
+										<div id="fade" onClick="lightbox_close();"></div>
+										<div class="video">
+											<img style="position: absolute;" src="assets/img/showcase/show-5.jpg" alt="img">
+											<a href="#" onclick="lightbox_open();"><a class="popup-with-zoom-pq" href="assets/video/tuto5.webm" title="Editar Transcrição"><span class="orange-gred ti-control-forward"></span></a></a>
+										</div>
+									</div> <!-- VIDEO-->	
+								</div>
+								<div class="showcase-img">  <!-- show-6 -->
+									<h4>Criar sala pessoal</h4>
+									<h5>Para criar uma sala pessoal, no Atendimento Virtual, clique na opção Criar Sala e escolha um nome para a nova sala.</h5>
+									<div class="install-play text-center"> <!-- VIDEO -->
+										<div id="light"></div>
+										<div id="fade" onClick="lightbox_close();"></div>
+										<div class="video">
+											<img style="position: absolute;" src="assets/img/showcase/show-6.jpg" alt="img">
+											<a href="#" onclick="lightbox_open();"><a class="popup-with-zoom-pq" href="assets/video/criar_sala.webm" title="Criar sala pessoal"><span class="orange-gred ti-control-forward"></span></a></a>
+										</div>
+									</div> <!-- VIDEO-->	
+								</div>
+								<div class="showcase-img">  <!-- show-7 -->
+									<h4>Gravar uma Audiência</h4>
+									<h5>Para gravar uma audiência....</h5>
+									<div class="install-play text-center"> <!-- VIDEO -->
+										<div id="light"></div>
+										<div id="fade" onClick="lightbox_close();"></div>
+										<div class="video">
+											<img style="position: absolute;" src="assets/img/showcase/show-7.jpg" alt="img">
+											<a href="#" onclick="lightbox_open();"><a class="popup-with-zoom-pq" href="assets/video/gravar.webm" title="Gravar um audiência"><span class="orange-gred ti-control-forward"></span></a></a>
+										</div>
+									</div> <!-- VIDEO-->	
+								</div>
+							</div>
+
+						</div>
+					</div><!-- /showcase-content -->
+				</div><!-- /row -->
+			</div><!-- /container -->
+		</section>
+	<!-- End of showcase section     
+		============================================= -->
+
+
+
+	<!-- Start Software Livre      
+		============================================= -->
+		<section id="pricing" class="pricing-plan-section">
+			<div class="container">
+				<div class="row section-content">
+					<div class="pricing-plan-content">
+						<div class="section-title text-center pt55 pb50">
+							<span class="title-text pink text-uppercase">LICENÇA</span>
+							<h1 class="title deep-black pb40">Software Livre com Código Aberto</h1>
+						</div>
+						<!-- //section-title -->
+						<div class="pricing-plan">
+							<div class="col-md-4 no-padding">
+								<div class="landy-pricing text-center">
+									<p><a href="https://bigbluebutton.org/" title="BigBlueButton" target="blank"><img src="assets/img/logo/bigbluebutton.png"></a></p>
+									<p>O <i>Software BigBlueButton</i> é um sistema de conferência web voltado para aprendizagem on-line, que conta com uma <a href="https://bigbluebutton.org/open-source-license/" target="blank">Licença LGPL de Código Aberto</a>. O sistema original incorpora o projeto <i>Red5phone Open Source</i>, que é desenvolvido e distribuído sob GPL.</p>
+									<p>As licenças GPL e LGPL permitem utilizar livremente qualquer parte do sistema, inclusive para integração com outros sistemas (mesmo de código restrito), seja para distribuir os aplicativos ou para executá-los em um ambiente hospedado, desde que sejam mantidos os mesmos termos das licenças originais.</p>
+									<p>O nome <i>BigBlueButton</i> e o logotipo do <i>Software BigBlueButton</i> são marcas comerciais da <a href="https://blindsidenetworks.com/" target="blank">Blindside Networks Inc</a>.</p>
+									<p  style="padding-top: 20px;"><a href="https://blindsidenetworks.com/" title="Blindside Networks Inc" target="blank"><img src="assets/img/logo/blindside.png"></a></p>
+								</div>
+							</div>
+						</div><!--  /landy-pricing -->						
+						<div class="pricing-plan">
+							<div class="col-md-4 no-padding">
+								<div class="landy-pricing text-center">
+									<p><a href="https://mconf.org/" title="Software Mconf" target="blank"><img src="assets/img/logo/mconf_org.png"></a></p>
+									<p>O <i>Software Mconf</i> é um sistema de conferência web altamente flexível, também de <a href="http://mconf.org/#open-source" title="Licença do Software Mconf" target="blank">Código Aberto</a>, criado sobre (e ao redor) do <i>Software BigBlueButton</i>.</p> 
+									<p>Essa ramificação incorpora diversos outros componentes, como o <i>Mconf-Live</i>, uma versão personalizada do <i>BigBlueButton</i> que inclui vários novos recursos, e o <a href="https://elos.vc/site/pt/terms" title="Termos de uso do Software Elos Enterprise" target="blank"><i>Elos Entreprise</i></a>, um software de balanceamento, de código proprietário, que permite a inclusão de diversos servidores <i>Mconf-Live</i> na infraestrutura do Órgão, garantindo escalabilidade e alta disponibilidade.</p>									
+									<p>Os nomes <i>Mconf</i> e <i>Elos</i>, e o logotipo do <i>Software Mconf</i> são marcas comerciais da <a href="https://mconf.com/pt/" target="blank"><i>Mconf Tecnologia</i></a>, uma empresa especializada em soluções de videoconferência com sede em Porto Alegre e com abrangência mundial.</p>
+									<p  style="padding-top: 20px;"><a href="https://mconf.com/pt/" title="Mconf Tecnologia" target="blank"><img src="assets/img/logo/mconf.png"></a></p>
+								</div>
+							</div>
+						</div><!--  /landy-pricing -->
+
+						<div class="pricing-plan">
+							<div class="col-md-4 no-padding">
+								<div class="landy-pricing middle text-center">
+									<p><a href="#" title="Scriba"><img src="assets/img/logo/scriba.png"></a></p>
+									<p>O Scriba é uma ramificação (<i>fork</i>) dos Softwares <i>Mconf</i> e <i>BigBlueButton</i>, que apresenta melhorias exclusivas para Tribunais de Justiça.</p>
+									<p>O Scriba é desenvolvido com recursos públicos, mantido pelo Tribunal de Justiça do Estado de Roraima - TJRR e distribuído mediante a celebração de Acordo de Cooperação Técnica.</p>
+									<p>Os componentes inclusos no Scriba, que	foram contratados pelo TJRR, estão sob uma <a href="https://vc.tjrr.jus.br/#license" target="blank"><b>Licença de Governo</b></a>, e os componentes originários do <i>BigBlueButton</i> e do <i>Mconf</i> estão disponíveis sob a licença <a href="https://www.gnu.org/licenses/lgpl-3.0.pt-br.html" title="GNU Lesser General Public License V3" target="blank"><i>GNU Lesser General Public License V3</i></a>, assim como todas as personalizações e melhorias realizadas  pelo TJRR nestes componentes, respeitam integralmente todas as diretrizes desta licença.</p>
+									<p><a href="https://www.tjrr.jus.br/" title="TJRR" target="blank"><img src="assets/img/logo/tjrr.png"></a></p>
+								</div>
+							</div>
+						</div><!--  /landy-pricing -->
+					</div>
+				</div><!--  /row-->
+			</div><!--  /container -->
+		</section>
+	<!-- End of pricing plan       
+		============================================= -->
+
+
+
+
+	<!-- Start of download        
+		============================================= -->
+		<section id="download-area" class="download-section">
+			<div class="container">
+				<div class="row section-content">
+					<div class="download-area-content  text-center">
+						<div class="download-now pb40">
+						<br>
+						<br>
+						<br>
+							<h3>Git Hub do TJRR?</h3>
+						<br>
+						<br>
+						<br>
+						<br>
+						</div>
+					</div>
+				</div><!--  /row -->
+			</div><!--  /container -->
+		</section>
+	<!-- End of  download        
+		============================================= -->
+
+
+
+
+	<!-- Start of contact section        
+		============================================= -->
+		<section id="contact" class="contact-section">
+			<div class="container">
+				<div class="row section-content pb50 pt55">
+					<div class="section-title text-center pb50">
+						<span class="title-text pink text-uppercase">Contato</span>
+						<h1 class="title deep-black pb40">Entre em contato com o TJRR</h1>
+					</div>
+					<!-- //section-title -->
+
+
+					<div class="comment-form">
+						<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+							<div class="contact-info">
+								<input class="name  mr30" name="name" type="text" placeholder="Nome*">
+							</div>
+							<div class="contact-info">
+								<input class="email" name="email" type="text" placeholder="Email*">
+							</div>
+							<div class="contact-info-1">
+								<input class="name" name="name" type="text" placeholder="Assunto">
+							</div>
+							<div class="contact-info">
+								<textarea id="message" name="message" placeholder="Messagem" rows="7" cols="30"></textarea>
+							</div>
+							<div class="submit-btn text-center mt20">
+								<button type="submit" value="Submit">Enviar</button>
+							</div> 
+						</form>
+					</div>
+
+				</div><!--  //row-->
+			</div><!--  //container -->
+		</section>
+	<!-- End of contact section        
+		============================================= -->
+
+
+
+
+	<!-- Start of footer section        
+		============================================= -->
+		<footer>
+			<section id="footer-area" class="footer-area-section">
+				<div class="container">
+					<div class="row section-content">
+						<div id="rp-col1" class="rp-col1">
+    						<img src="https://audiencias.tjrr.jus.br/pix/logo-footerTJRR.png" alt="Tribunal de Justiça do Estado de Roraima" class="img-responsive atto_image_button_text-bottom" width="148" height="92">
+						</div>
+						<div id="rp-col2" class="rp-col2">
+    						<strong><a href="http://www.tjrr.jus.br/" title="Tribunal de Justiça do Estado de Roraima" target="_blank">Tribunal de Justiça do Estado de Roraima - TJRR</a></strong>
+    						<br>Praça do Centro Cívico, 296 - Centro, Boa Vista-RR
+    						<br>Central de Atendimento: (95) 3198-4141 - <a href="mailto:atendimento@tjrr.jus.br?Subject=Sistema de Videoconferência" title="E-mail para atendimento" target="_top">atendimento@tjrr.jus.br</a>
+    						<div id="licenca" style="text-align:center;font-size: 10px;">
+        						<br><a href="https://audiencias.tjrr.jus.br/?redirect=0" title="Sistema de Videoconferência" target="_blank" class="fa fa-info-circle"> Sistema de Videoconferência - Versão: 2.01</a>
+        						<br>© 2016-2019 - Desenvolvido por: <a href="http://sti.tjrr.jus.br/" title="Secretaria de Tecnologia da Informação" target="_blank">Secretaria de Tecnologia da Informação do TJRR</a>
+    						</div>
+						</div>
+						<div id="rp-col3" class="rp-col3">
+    						<table width="100%" cellspacing="20" cellpadding="10" border="0">
+        						<tbody>
+            					<tr>
+               					<td style="text-align: center;"><a href="https://www.facebook.com/TJRORAIMA/" title="Facebook" target="_blank" class="fa fa-facebook"> </a></td>
+                					<td style="text-align: center;"><a href="https://www.youtube.com/channel/UCsv91923JTJfQVaxihDMvQg" title="YouTube" target="_blank" class="fa fa-youtube"> </a></td>
+                					<td style="text-align: center;"><a href="https://twitter.com/TJRoraima" title="Twitter" target="_blank" class="fa fa-twitter"> </a></td>
+                					<td style="text-align: center;"><a href="http://api.whatsapp.com/send?1=pt_BR&amp;phone=5595984033518" title="WhatsApp" target="_blank" class="fa fa-whatsapp"> </a></td>
+                					<td style="text-align: center;"><a href="https://github.com/tjrr/" title="GitHub" target="_blank" class="fa fa-github"> </a></td>
+            					</tr>
+        						</tbody>
+    						</table>
+						</div>
+						<div id="rp-col4" class="rp-col4">
+						</div>
+					</div> <!--  //footer-area-content -->
+				</div><!--  //container -->
+			</section>
+		</footer>
+	<!-- End of footer section        
+		============================================= -->
+	
+	
+	
+
+		<!--  Js Library -->
+		<script type="text/javascript" src="assets/js/jquery-2.1.4.min.js"></script>
+		<!-- Include  for bootstrap -->
+		<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+		<!-- Include Owl-carousel -->
+		<script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
+		<!-- Include OnePagenNav -->
+		<!-- <script type="text/javascript" src="assets/js/OnePagenNav.js"></script> -->
+		<!-- Include jquery.magnific-popup.min.js-->
+		<script type="text/javascript" src="assets/js/jquery.magnific-popup.min.js"></script>
+		<!-- Include script.js-->
+		<script type="text/javascript" src="assets/js/script.js"></script>
+		<!-- Include video.js-->
+		<script type="text/javascript" src="assets/js/video.js"></script>
+		<!-- Video Gallery -->	
+		<script type="text/javascript" src="assets/js/carousel_lightbox.js"></script>	
+
+		<!-- Botão to top -->
+		<script type="text/javascript" src="assets/js/totop.js"></script>
+		<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			var defaults = {
+	  			containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+	 		};
+			*/
+			
+			$().UItoTop({ easingType: 'easeOutQuart' });
+			
+		});
+	</script>
+	<a href="#" id="toTop" style="display: inline;"><span id="toTopHover" style="opacity: 0;"></span>Início</a>	
+	</body>
+	</html>
