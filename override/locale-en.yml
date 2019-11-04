@@ -189,6 +189,7 @@ en:
     recording:
       format:
         presentation: "Presentation"
+        transcription: "Transcription"
     room:
       mailer:
         subject: 'has invited you to view a recording.'
@@ -338,6 +339,7 @@ en:
       private: Private
     format:
       presentation: Presentation
+      transcription: Transcription
   registration:
     approval:
       fail: Your account has not been approved yet. If multiples days have passed since you signed up, please contact your administrator.

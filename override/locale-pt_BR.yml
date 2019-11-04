@@ -109,7 +109,7 @@ pt_BR:
   google_calendar:
     add: "Adicionar ao Google Calendar"
     meeting_with: "Reunião em %{room_name}"
-  bigbluebutton: TJRR - Audiências
+  bigbluebutton: Scriba
   bigbluebutton_exception: "Oops, um erro ocorreu ao iniciar a sala."
   cancel: Cancelar
   cookies:
@@ -196,6 +196,7 @@ pt_BR:
     recording:
       format:
         presentation: "Apresentação"
+        transcription: "Transcrição"
     room:
       mailer:
         subject: 'lhe convidou para visualizar uma gravação.'
@@ -344,6 +345,7 @@ pt_BR:
       private: Privado
     format:
       presentation: Apresentação
+      transcription: Transcrição
   registration:
     approval:
       fail: "Sua conta ainda não foi aprovada. Se vários dias se passaram desde que você se cadastrou, por favor, contate o seu administrador."
