@@ -1,14 +1,21 @@
-#Conheça o Scriba
+# Conheça o Scriba
 O Scriba é um sistema de audiências via web de código aberto, o que significa que o código-fonte possui uma licença que permite a qualquer instituição do Judiciário configurar seu próprio serviço de comunicação inteligente com o Scriba.
+
 O Scriba foi concebido para Tribunais, por isso apresenta todos recursos esperados de um sistema de Audiências Judiciais. Os recursos abrangentes permitem aos magistrados, servidores, promotores, defensores, advogados e as partes participarem das audiências de maneira célere e segura.
+
 O Scriba pode ser integrado ao sistema de controle de processos para realizar a gravação e a transcrição das audiências diretamente da tela de gestão da pauta diária da Unidade Judicial.
+
 O Scriba permite a participação remota a partir de qualquer dispositivo com acesso a internet, inclusive de réus em regime de restrição de liberdade, sem a necessidade de deslocamento com escolta da unidade prisional até o Fórum.
 
 ## Licença
-O Scriba é uma ramificação (fork) do Software Mconf.org, que por sua vez é um fork do software BigBlueButton
-O Mconf é um sistema de conferência na web de código aberto. <a href="http://mconf.org/#open-source">CONSULTAR LICENÇA</a>
-O BigBlueButton é um sistema de conferência web voltado para aprendizagem on-line, também de código aberto. <a href="https://bigbluebutton.org/open-source-license/">CONSULTAR LICENÇA</a>
+O Scriba é uma ramificação (fork) do Software Mconf.org, que por sua vez é um fork do software BigBlueButton.
+
+O Mconf é um sistema de conferência na web de código aberto. <a href="http://mconf.org/#open-source">CONSULTAR LICENÇA</a>.
+
+O BigBlueButton é um sistema de conferência web voltado para aprendizagem on-line, também de código aberto. <a href="https://bigbluebutton.org/open-source-license/">CONSULTAR LICENÇA</a>.
+
 O Scriba está sob a licença <bold>LGPL versão 3</bold>, <a href="https://bigbluebutton.org/open-source-license/">CONSULTAR LICENÇA</a>.
+
 Como seus antencessores, todos os componentes inclusos no Scriba são originários do projeto BigBlueButton e Mconf, e estão disponíveis sob a licença GNU Lesser General Public License, assim como todas as personalizações e melhorias desenvolvidas pelo TJRR respeitam integralmente todas as diretrizes desta licença.
 
 # Greenlight
