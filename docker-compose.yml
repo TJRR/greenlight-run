@@ -19,6 +19,7 @@ services:
       - ./override/locale-en.yml:/usr/src/app/config/locales/en.yml
       - ./override/footer.html.erb:/usr/src/app/app/views/shared/_footer.html.erb
       - ./override/index.html:/usr/src/app/public/index.html
+      - ./override/assets/hotsite:/usr/src/app/public/assets/hotsite
       - ./override/ldap_signin.html.erb:/usr/src/app/app/views/users/ldap_signin.html.erb
       - ./db/data.yml:/usr/src/app/db/data.yml
 
