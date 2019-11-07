@@ -11,7 +11,7 @@ Version:        1.1
 Last change:     
 Author:         HTMLmate
 
-Alterado em setembro 2019 por Lourilúcio Moura 
+Alterado em setembro 2019 por Lourilúcio Moura
 
 
 /* ----------------------------
@@ -208,8 +208,9 @@ Padding settings
 .pt55{padding-top: 55px;}
 .pt35{padding-top: 35px;}
 .pt25{padding-top: 25px;}
-.pt15{padding-top: 15px;}
 .pt20{padding-top: 20px;}
+.pt15{padding-top: 15px;}
+.pt5{padding-top: 5px;}
 .no-padding{padding: 0;}
 
 .table-disply {
@@ -320,6 +321,39 @@ Start of about section
 /*----------------------------------------------------------------------- 
 End of about section
 -------------------------------------------------------------------------*/
+
+
+
+/*----------------------------------------------------------------------- 
+Start of use section
+-------------------------------------------------------------------------*/
+.use-section {
+	background-color: #f7f7f9;
+	overflow: visible;
+}
+.use-section-content {
+	padding-top: 100px;
+}
+.use-section .section-content {
+	padding-bottom: 5px;
+}
+.use-right-img {
+	position: absolute;
+	max-width: 1200px;
+	margin: 0px auto 0px auto;
+}
+.use-text-right{
+	padding-top: 380px;	
+	font-family: cursive;
+	font-size: 14px;
+	font-style: italic;
+	color: #00396A;	
+}
+/*----------------------------------------------------------------------- 
+End of use section
+-------------------------------------------------------------------------*/
+
+
 
 
 /*----------------------------------------------------------------------- 
@@ -854,8 +888,10 @@ End of download area section
 Start of contact section
 -------------------------------------------------------------------------*/
 .comment-form {
-	max-width: 770px;
-	margin: 0 auto;
+	overflow:hidden;
+	overflow-x:hidden;
+	overflow-y:hidden;
+	align-content: center;
 }
 
 .contact-info input {
