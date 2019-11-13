@@ -128,7 +128,7 @@ h5,h6 {
 	font-family: sans-serif;
 	text-align: justify;
 	line-height: 150%;
-	padding: 10px 20px 20px 0px;
+	padding: 10px 5px 10px 5px;
 }
 
 .orange-gred {
@@ -206,6 +206,7 @@ Padding settings
 .pb50{padding-bottom: 50px;}
 .pb60{padding-bottom: 60px;}
 .pt55{padding-top: 55px;}
+.pt40{padding-top: 40px;}
 .pt35{padding-top: 35px;}
 .pt25{padding-top: 25px;}
 .pt20{padding-top: 20px;}
@@ -344,7 +345,7 @@ Start of use section
 }
 .use-text-right{
 	padding-top: 380px;	
-	font-family: cursive;
+	font-family: Helvetica;
 	font-size: 14px;
 	font-style: italic;
 	color: #00396A;	
@@ -353,6 +354,22 @@ Start of use section
 End of use section
 -------------------------------------------------------------------------*/
 
+
+
+/*----------------------------------------------------------------------- 
+Start of Legalization section
+-------------------------------------------------------------------------*/
+
+.text-center{
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 16px;
+	text-align: center;
+	color: #757575;
+	align-items: center;
+}
+/*----------------------------------------------------------------------- 
+End of Legalization section
+-------------------------------------------------------------------------*/
 
 
 
